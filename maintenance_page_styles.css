@@ -1,0 +1,33 @@
+.footer-icon{
+    width:4vw; height:4vw;
+    transition: 0.5s;
+}
+
+.footer-icon:hover{
+    width: 5vw;
+    height: 5vw;
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(29, 29, 29); 
+    align-items: center; 
+    display: flex; 
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+p{
+    color: rgb(210, 210, 210); 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 3vw; 
+    font-weight: 600;
+    margin-bottom: 3vw;
+}
+
+div{
+    display: flex;
+    gap: 6vw;
+}

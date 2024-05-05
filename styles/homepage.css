@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    margin: 0vw;
+    display: flex;
+
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: rgb(29, 29, 29);
+}
+
+#con-a{
+    background-color: rgb(29, 29, 29);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-family: 'Montserrat';
+    row-gap: 6vh;
+}
+/*
+.button::before{
+    display: block;
+    
+    top: 0;
+    left: 0;
+    position: absolute;
+    
+    content: '';
+    background-color: rgba(128, 44, 44, 0.9);
+    height: 100%;
+    
+    
+}
+
+
+.button:hover:before{
+    animation: highlight 0.5s ease-in-out 1;
+    height: 100%;
+    display: block;
+    
+    top: 0;
+    left: 0;
+    position: absolute;
+    
+    content: '';
+    background-color: rgba(128, 44, 44, 0.9);
+    width: 100%;
+    
+}
+
+
+@keyframes highlight {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+*/
+.span-bisque{
+    color: bisque;
+}
+/*
+.name::before{
+    content: "";
+    transform: translateX(-24.5vw);
+    position: absolute;
+    width: 0.25vw;
+    height: 6vw;
+    right: -5px;
+    background-color: antiquewhite;
+}
+*/
+.button{
+    border: solid;
+    display: flex;
+    border-width: 2px;
+    border-radius: 2px;
+    padding: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    
+    align-items: center;
+    color: bisque;
+    font-size: 1.75vw;
+
+    transition: font-size 0.5s;
+    text-decoration: none;
+}
+
+
+
+
+#intro{
+    text-align: center;
+    font-size: 5vw;
+    pointer-events: none;
+}
+
+.button:hover{
+    font-size: 2.25vw;
+    cursor: pointer;
+}
+
+#homepage-redirects{
+    display: flex;
+    gap: 10vw;
+}
+
+

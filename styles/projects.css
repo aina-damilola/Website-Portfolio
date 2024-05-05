@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#Projects{
+    background-color: rgb(29, 29, 29);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+    
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+#con-b-e{
+    display: flex;
+    
+    width: 85%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.con-b-f{
+    width: 2.5vw; height:2.5vw;
+    margin-bottom: 1.5vw;
+    margin-top: -1vw;
+    transition: 0.25s;
+    background-color: rgb(56, 56, 56);
+    border-radius: 0.5vw;
+    padding: 0.125vw;
+    box-shadow: -0.35vw -0.35vw 0.5vw rgba(0, 0, 0, 1);
+}
+
+
+.con-b-f:hover{
+    width: 2vw;
+    height: 2vw;
+    cursor: pointer;
+}
+
+
+.con-b-a{
+    background-color: rgba(10, 10, 10, 0.9);
+    height: 30vw;
+    width: 2%;
+    position: relative;
+    border-radius: 2vw;
+    z-index: 3;
+    margin-top: 2vh;
+    overflow: hidden;
+    display: flex;
+    
+    padding: 2vw;
+    box-shadow: -0.25vw -0.25vw 0.5vw rgba(0, 0, 0, 0.418);
+    justify-content: end;
+    gap: 3vw;
+
+    border: solid;
+}
+
+.con-dami{
+    height: 20vw;
+    display: flex;
+    gap: 3vw;
+    justify-content: end;
+    
+}
+
+.con-b-d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -2vw;
+}
+
+.projects-embeded-button{
+    width: max-content;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1vw;
+    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.projects-embeded-button:hover{
+    font-size: 1.15vw;
+
+}
+
+.con-b-a:hover{
+    cursor: pointer;
+}
+
+.open{
+    animation: open-anim 0.25s ease-in-out;
+    width: 70%;
+    color: bisque;
+}
+.close{
+    animation: close-anim 0.25s ease-in-out 1;
+    width: 2%;
+    color: rgba(242, 84, 92, 0.342);
+}
+
+@keyframes open-anim {
+    from{
+        width: 2%;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+@keyframes close-anim {
+    from{
+        width: 70%;
+    }
+    to{
+        width: 2%;
+    }
+}
+
+@keyframes show-stuff-r{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes show-stuff{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.projects-icon-holder{
+    display: flex;
+    gap: 1vw;
+}
+
+.youtube-vid-container{
+    width: 28vw;
+    height: 21vw;
+
+}
+
+.video-back{
+    background-color: rgb(51, 51, 51);
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    margin-top: 2vw;
+    height: 25vw;
+    width: 50%;
+    border-radius: 0.25vw;
+    box-shadow: -0.25vw -0.25vw 0.5vw rgba(0, 0, 0, 0.61);
+    
+}
+
+.show{
+    animation: show-stuff 0.25s ease-in;
+    visibility: visible;
+}
+
+.show-r{
+    animation: show-stuff-r 0.25s ease-in;
+    visibility: hidden;
+    
+}
+
+iframe{
+    position: relative;
+    color: black;
+    right: 2vw;
+    border-radius: 0.25vw;
+    box-shadow: -0.25vw -0.25vw 0.5vw rgba(0, 0, 0, 0.418);
+    z-index: 6;
+}
+
+
+
+#project-headers{
+    color: white;
+    font-family: 'Single Day';
+    font-size: 7vw;
+    color: rgb(207, 202, 202)smoke;
+    white-space: nowrap;
+    width: 25vw;
+    text-shadow: 0.25vw -0.35vw 0.25vw rgba(242, 84, 92, 0.10);
+    z-index: 5;
+    margin-top: 1vw;
+    text-align: center;
+}
+
+#project-description{
+    font-family: 'Oswald';
+    font-size: 1.25vw;
+    line-height: 1.75vw;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.span-red{
+    color: rgba(242, 84, 92, 0.74);;
+}
+

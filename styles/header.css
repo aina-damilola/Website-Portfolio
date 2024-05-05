@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#header{
+    width: 100vw;
+    height: 5vw;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+
+    font-family: 'Montserrat';
+    justify-content: space-evenly;
+    gap: 3vw;
+    align-items: center;
+
+    font-size: 1.75vw;
+
+    
+
+
+    box-shadow: 0vw 0.25vw 0.5vw 0.25vw rgba(0,0,0,0.4);
+    
+    position: sticky;
+    top: 0px;
+    scroll-behavior: smooth;
+    z-index: 10;
+    user-select: none;
+}
+
+.redirects{
+    transition: color 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+
+.redirects:hover{
+    color: bisque;
+    
+}
+
+.header-transition{
+    animation: transitiony 0.25s linear 1;
+  
+    font-weight: bold;
+    color: bisque;
+    
+    
+}
+
+.header-transition-r{
+    animation: transitiony-r 0.25s linear 1;
+    
+    font-weight: normal;
+    color: white;
+    
+}
+
+@keyframes transitiony {
+    from{
+        font-weight: normal;
+        color: white;
+    }
+    to{
+        font-weight: bold;
+        color: bisque;
+    }
+}
+
+@keyframes transitiony-r {
+    from{
+        font-weight: bold;
+        color: bisque;
+    }
+    to{
+        font-weight: normal;
+        color: white;
+    }
+    
+}
